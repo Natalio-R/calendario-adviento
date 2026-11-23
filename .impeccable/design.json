@@ -1,0 +1,486 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-17T12:36:32.630Z",
+  "title": "Design System: Adviento de Andrius",
+  "extensions": {
+    "colorMeta": {
+      "night": {
+        "role": "neutral",
+        "displayName": "Papel índigo de medianoche",
+        "canonical": "#161b45",
+        "tonalRamp": [
+          "oklch(15% 0.046 274.0)",
+          "oklch(25% 0.068 274.0)",
+          "oklch(36% 0.078 274.0)",
+          "oklch(47% 0.078 274.0)",
+          "oklch(58% 0.078 274.0)",
+          "oklch(70% 0.076 274.0)",
+          "oklch(82% 0.053 274.0)",
+          "oklch(95% 0.017 274.0)"
+        ]
+      },
+      "night-deep": {
+        "role": "neutral",
+        "displayName": "Noche profunda",
+        "canonical": "#0e1233",
+        "tonalRamp": [
+          "oklch(15% 0.038 273.9)",
+          "oklch(25% 0.056 273.9)",
+          "oklch(36% 0.065 273.9)",
+          "oklch(47% 0.065 273.9)",
+          "oklch(58% 0.065 273.9)",
+          "oklch(70% 0.062 273.9)",
+          "oklch(82% 0.044 273.9)",
+          "oklch(95% 0.014 273.9)"
+        ]
+      },
+      "indigo2": {
+        "role": "neutral",
+        "displayName": "Índigo de capa cercana",
+        "canonical": "#232a66",
+        "tonalRamp": [
+          "oklch(15% 0.061 273.8)",
+          "oklch(25% 0.090 273.8)",
+          "oklch(36% 0.105 273.8)",
+          "oklch(47% 0.105 273.8)",
+          "oklch(58% 0.105 273.8)",
+          "oklch(70% 0.101 273.8)",
+          "oklch(82% 0.071 273.8)",
+          "oklch(95% 0.023 273.8)"
+        ]
+      },
+      "indigo3": {
+        "role": "neutral",
+        "displayName": "Índigo de capa media",
+        "canonical": "#323b85",
+        "tonalRamp": [
+          "oklch(15% 0.072 274.0)",
+          "oklch(25% 0.106 274.0)",
+          "oklch(36% 0.123 274.0)",
+          "oklch(47% 0.123 274.0)",
+          "oklch(58% 0.123 274.0)",
+          "oklch(70% 0.119 274.0)",
+          "oklch(82% 0.084 274.0)",
+          "oklch(95% 0.027 274.0)"
+        ]
+      },
+      "indigo4": {
+        "role": "neutral",
+        "displayName": "Índigo de capa lejana",
+        "canonical": "#454ea0",
+        "tonalRamp": [
+          "oklch(15% 0.077 275.3)",
+          "oklch(25% 0.113 275.3)",
+          "oklch(36% 0.131 275.3)",
+          "oklch(47% 0.131 275.3)",
+          "oklch(58% 0.131 275.3)",
+          "oklch(70% 0.127 275.3)",
+          "oklch(82% 0.089 275.3)",
+          "oklch(95% 0.029 275.3)"
+        ]
+      },
+      "snow": {
+        "role": "neutral",
+        "displayName": "Nieve fría",
+        "canonical": "#f3f4f8",
+        "tonalRamp": [
+          "oklch(15% 0.003 275.0)",
+          "oklch(25% 0.005 275.0)",
+          "oklch(36% 0.005 275.0)",
+          "oklch(47% 0.005 275.0)",
+          "oklch(58% 0.005 275.0)",
+          "oklch(70% 0.005 275.0)",
+          "oklch(82% 0.004 275.0)",
+          "oklch(95% 0.001 275.0)"
+        ]
+      },
+      "snow2": {
+        "role": "neutral",
+        "displayName": "Nieve en sombra",
+        "canonical": "#e3e7f3",
+        "tonalRamp": [
+          "oklch(15% 0.010 271.2)",
+          "oklch(25% 0.014 271.2)",
+          "oklch(36% 0.017 271.2)",
+          "oklch(47% 0.017 271.2)",
+          "oklch(58% 0.017 271.2)",
+          "oklch(70% 0.016 271.2)",
+          "oklch(82% 0.011 271.2)",
+          "oklch(95% 0.004 271.2)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Tinta",
+        "canonical": "#11142e",
+        "tonalRamp": [
+          "oklch(15% 0.030 275.9)",
+          "oklch(25% 0.044 275.9)",
+          "oklch(36% 0.051 275.9)",
+          "oklch(47% 0.051 275.9)",
+          "oklch(58% 0.051 275.9)",
+          "oklch(70% 0.050 275.9)",
+          "oklch(82% 0.035 275.9)",
+          "oklch(95% 0.011 275.9)"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Tinta suave",
+        "canonical": "#3a3f66",
+        "tonalRamp": [
+          "oklch(15% 0.039 277.2)",
+          "oklch(25% 0.058 277.2)",
+          "oklch(36% 0.067 277.2)",
+          "oklch(47% 0.067 277.2)",
+          "oklch(58% 0.067 277.2)",
+          "oklch(70% 0.064 277.2)",
+          "oklch(82% 0.045 277.2)",
+          "oklch(95% 0.015 277.2)"
+        ]
+      },
+      "vermilion": {
+        "role": "primary",
+        "displayName": "Bermellón de telón",
+        "canonical": "#e5392b",
+        "tonalRamp": [
+          "oklch(15% 0.123 29.4)",
+          "oklch(25% 0.181 29.4)",
+          "oklch(36% 0.210 29.4)",
+          "oklch(47% 0.210 29.4)",
+          "oklch(58% 0.210 29.4)",
+          "oklch(70% 0.203 29.4)",
+          "oklch(82% 0.143 29.4)",
+          "oklch(95% 0.046 29.4)"
+        ]
+      },
+      "vermilion-deep": {
+        "role": "primary",
+        "displayName": "Bermellón profundo",
+        "canonical": "#b5261b",
+        "tonalRamp": [
+          "oklch(15% 0.106 29.4)",
+          "oklch(25% 0.156 29.4)",
+          "oklch(36% 0.181 29.4)",
+          "oklch(47% 0.181 29.4)",
+          "oklch(58% 0.181 29.4)",
+          "oklch(70% 0.174 29.4)",
+          "oklch(82% 0.123 29.4)",
+          "oklch(95% 0.039 29.4)"
+        ]
+      },
+      "pine": {
+        "role": "tertiary",
+        "displayName": "Verde abeto",
+        "canonical": "#1e6a4e",
+        "tonalRamp": [
+          "oklch(15% 0.051 164.4)",
+          "oklch(25% 0.075 164.4)",
+          "oklch(36% 0.087 164.4)",
+          "oklch(47% 0.087 164.4)",
+          "oklch(58% 0.087 164.4)",
+          "oklch(70% 0.084 164.4)",
+          "oklch(82% 0.059 164.4)",
+          "oklch(95% 0.019 164.4)"
+        ]
+      },
+      "pine2": {
+        "role": "tertiary",
+        "displayName": "Abeto en sombra",
+        "canonical": "#164e3a",
+        "tonalRamp": [
+          "oklch(15% 0.040 165.5)",
+          "oklch(25% 0.058 165.5)",
+          "oklch(36% 0.068 165.5)",
+          "oklch(47% 0.068 165.5)",
+          "oklch(58% 0.068 165.5)",
+          "oklch(70% 0.065 165.5)",
+          "oklch(82% 0.046 165.5)",
+          "oklch(95% 0.015 165.5)"
+        ]
+      },
+      "gold": {
+        "role": "secondary",
+        "displayName": "Pan de oro",
+        "canonical": "#f0b22e",
+        "tonalRamp": [
+          "oklch(15% 0.090 80.9)",
+          "oklch(25% 0.132 80.9)",
+          "oklch(36% 0.153 80.9)",
+          "oklch(47% 0.153 80.9)",
+          "oklch(58% 0.153 80.9)",
+          "oklch(70% 0.148 80.9)",
+          "oklch(82% 0.104 80.9)",
+          "oklch(95% 0.033 80.9)"
+        ]
+      },
+      "gold-deep": {
+        "role": "secondary",
+        "displayName": "Oro viejo",
+        "canonical": "#9a6a0c",
+        "tonalRamp": [
+          "oklch(15% 0.067 76.5)",
+          "oklch(25% 0.098 76.5)",
+          "oklch(36% 0.114 76.5)",
+          "oklch(47% 0.114 76.5)",
+          "oklch(58% 0.114 76.5)",
+          "oklch(70% 0.110 76.5)",
+          "oklch(82% 0.077 76.5)",
+          "oklch(95% 0.025 76.5)"
+        ]
+      },
+      "candle": {
+        "role": "secondary",
+        "displayName": "Luz de vela",
+        "canonical": "#ffcf6b",
+        "tonalRamp": [
+          "oklch(15% 0.076 83.9)",
+          "oklch(25% 0.112 83.9)",
+          "oklch(36% 0.130 83.9)",
+          "oklch(47% 0.130 83.9)",
+          "oklch(58% 0.130 83.9)",
+          "oklch(70% 0.125 83.9)",
+          "oklch(82% 0.088 83.9)",
+          "oklch(95% 0.028 83.9)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Título troquelado",
+        "purpose": "Título del telón; también extruido en 3D."
+      },
+      "name": {
+        "displayName": "Nombre",
+        "purpose": "Solo el nombre de Andrius."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Número de día y marcadores grandes."
+      },
+      "headline": {
+        "displayName": "Titular",
+        "purpose": "Títulos de hoja y de sorpresa."
+      },
+      "title": {
+        "displayName": "Título",
+        "purpose": "Barra de foco y tira de días."
+      },
+      "body": {
+        "displayName": "Cuerpo",
+        "purpose": "Texto de lectura."
+      },
+      "button": {
+        "displayName": "Botón",
+        "purpose": "Botones de papel."
+      },
+      "label": {
+        "displayName": "Etiqueta",
+        "purpose": "Cordón, marca, entradas, sellos."
+      },
+      "typed": {
+        "displayName": "Máquina de escribir",
+        "purpose": "Solo dentro de la carta y talones."
+      },
+      "hand": {
+        "displayName": "Manuscrita",
+        "purpose": "Solo firmas y pies de polaroid."
+      }
+    },
+    "shadows": [
+      {
+        "name": "lift",
+        "value": "0 1px 0 rgba(255,255,255,.25) inset, 0 6px 14px -4px rgba(6,8,30,.45), 0 2px 3px rgba(6,8,30,.25)",
+        "purpose": "Papel apoyado: botones, pestañas, opciones."
+      },
+      {
+        "name": "lift-hi",
+        "value": "0 1px 0 rgba(255,255,255,.3) inset, 0 14px 24px -8px rgba(6,8,30,.55), 0 3px 6px rgba(6,8,30,.3)",
+        "purpose": "Papel levantado: hojas, polaroids, pestaña enfocada, toast."
+      },
+      {
+        "name": "dock-drop",
+        "value": "drop-shadow(0 -6px 14px rgba(6,8,30,.35))",
+        "purpose": "Barra inferior festoneada (filter, porque la máscara recorta box-shadow)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.23,1,.32,1)",
+        "purpose": "Entradas, presión y transiciones de estado."
+      },
+      {
+        "name": "ease-in-out",
+        "value": "cubic-bezier(.77,0,.175,1)",
+        "purpose": "Movimientos de objeto de ida y vuelta (solapa, brazo, talón, lacre)."
+      },
+      {
+        "name": "ease-drawer",
+        "value": "cubic-bezier(.32,.72,0,1)",
+        "purpose": "Hojas inferiores y barra inferior."
+      },
+      {
+        "name": "ease-back",
+        "value": "cubic-bezier(.34,1.56,.64,1)",
+        "purpose": "Solo sellos que caen y sueltas tras arrastrar."
+      },
+      {
+        "name": "press",
+        "value": "140ms",
+        "purpose": "Duración de respuesta a la presión."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animations 1ms; sheets and panels opacity-only 200ms",
+        "purpose": "prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sheet-to-bottom",
+        "value": "720px"
+      }
+    ],
+    "texture": [
+      {
+        "name": "grain",
+        "value": "SVG feTurbulence fractalNoise baseFrequency .85, 3 octaves, alpha .07, tile 160px",
+        "purpose": "Sobre toda superficie de papel de la UI."
+      }
+    ],
+    "scene": {
+      "renderer": "Three.js WebGL, PCFSoftShadowMap, NeutralToneMapping exposure 1.05",
+      "bloom": "UnrealBloomPass strength .55, radius .5, threshold 1.0; solo candle multiplicado con toneMapped false lo supera",
+      "fog": "night, 30 a 75",
+      "layout": "Casas por longitud de arco igual en calle sinuosa, perspectiva forzada, bancos de nieve festoneados, tres cordilleras índigo, faroles, hilo de oro tubular entre puertas",
+      "curtain": "MeshPhysicalMaterial terciopelo vermilion (roughness .9, sheen .6) pegado a la cámara, cenefa oro"
+    }
+  },
+  "components": [
+    {
+      "name": "Paper Button",
+      "kind": "button",
+      "refersTo": "button-paper",
+      "description": "Botón principal troquelado; «Abrir el día N».",
+      "html": "<button class=\"ds-paper-btn\">Abrir el día 7</button>",
+      "css": ":host{--night:#161b45;--indigo2:#232a66;--snow:#f3f4f8;--ink:#11142e;--vermilion:#e5392b;--gold:#f0b22e;--gold-deep:#9a6a0c;--ease-out:cubic-bezier(.23,1,.32,1);--press:140ms;--lift:0 1px 0 rgba(255,255,255,.25) inset,0 6px 14px -4px rgba(6,8,30,.45),0 2px 3px rgba(6,8,30,.25);--lift-hi:0 1px 0 rgba(255,255,255,.3) inset,0 14px 24px -8px rgba(6,8,30,.55),0 3px 6px rgba(6,8,30,.3);} .ds-paper-btn{min-height:48px;padding:0 20px;border:0;cursor:pointer;font-family:'Bricolage Grotesque Variable','Arial Narrow',sans-serif;font-weight:800;font-size:16px;font-stretch:80%;letter-spacing:.04em;text-transform:uppercase;clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px);transition:transform var(--press) var(--ease-out),filter 200ms ease;color:var(--snow);background:var(--vermilion);border-radius:2px;box-shadow:var(--lift)}.ds-paper-btn:hover{filter:brightness(1.06)}.ds-paper-btn:active{transform:scale(.97)}.ds-paper-btn:focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+    },
+    {
+      "name": "Paper Button Locked",
+      "kind": "button",
+      "refersTo": "button-paper-locked",
+      "description": "Día aún no disponible.",
+      "html": "<button class=\"ds-paper-btn-locked\">Faltan 3 días</button>",
+      "css": ":host{--night:#161b45;--indigo2:#232a66;--snow:#f3f4f8;--ink:#11142e;--vermilion:#e5392b;--gold:#f0b22e;--gold-deep:#9a6a0c;--ease-out:cubic-bezier(.23,1,.32,1);--press:140ms;--lift:0 1px 0 rgba(255,255,255,.25) inset,0 6px 14px -4px rgba(6,8,30,.45),0 2px 3px rgba(6,8,30,.25);--lift-hi:0 1px 0 rgba(255,255,255,.3) inset,0 14px 24px -8px rgba(6,8,30,.55),0 3px 6px rgba(6,8,30,.3);} .ds-paper-btn-locked{min-height:48px;padding:0 20px;border:0;cursor:pointer;font-family:'Bricolage Grotesque Variable','Arial Narrow',sans-serif;font-weight:800;font-size:16px;font-stretch:80%;letter-spacing:.04em;text-transform:uppercase;clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px);transition:transform var(--press) var(--ease-out),filter 200ms ease;cursor:default;color:#b8bfe8;background:var(--indigo2);border-radius:2px;box-shadow:var(--lift)}.ds-paper-btn-locked:focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+    },
+    {
+      "name": "Paper Button Ghost",
+      "kind": "button",
+      "refersTo": "button-paper-ghost",
+      "description": "Acción secundaria con contorno de tinta.",
+      "html": "<button class=\"ds-paper-btn-ghost\">Volver</button>",
+      "css": ":host{--night:#161b45;--indigo2:#232a66;--snow:#f3f4f8;--ink:#11142e;--vermilion:#e5392b;--gold:#f0b22e;--gold-deep:#9a6a0c;--ease-out:cubic-bezier(.23,1,.32,1);--press:140ms;--lift:0 1px 0 rgba(255,255,255,.25) inset,0 6px 14px -4px rgba(6,8,30,.45),0 2px 3px rgba(6,8,30,.25);--lift-hi:0 1px 0 rgba(255,255,255,.3) inset,0 14px 24px -8px rgba(6,8,30,.55),0 3px 6px rgba(6,8,30,.3);} .ds-paper-btn-ghost{min-height:48px;padding:0 20px;border:0;cursor:pointer;font-family:'Bricolage Grotesque Variable','Arial Narrow',sans-serif;font-weight:800;font-size:16px;font-stretch:80%;letter-spacing:.04em;text-transform:uppercase;clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px);transition:transform var(--press) var(--ease-out),filter 200ms ease;color:var(--ink);background:transparent;box-shadow:inset 0 0 0 2px var(--ink)}.ds-paper-btn-ghost:active{transform:scale(.97)}.ds-paper-btn-ghost:focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+    },
+    {
+      "name": "Day Tab Strip",
+      "kind": "nav",
+      "refersTo": "day-tab",
+      "description": "Tira de pestañas de día: cerrado, abierto, hoy, disponible.",
+      "html": "<div class=\"ds-strip\"><button class=\"ds-tab\">5</button><button class=\"ds-tab ds-open\">6</button><button class=\"ds-tab ds-today\">7</button><button class=\"ds-tab ds-avail\">8</button></div>",
+      "css": ":host{--night:#161b45;--indigo2:#232a66;--snow:#f3f4f8;--ink:#11142e;--vermilion:#e5392b;--gold:#f0b22e;--gold-deep:#9a6a0c;--ease-out:cubic-bezier(.23,1,.32,1);--press:140ms;--lift:0 1px 0 rgba(255,255,255,.25) inset,0 6px 14px -4px rgba(6,8,30,.45),0 2px 3px rgba(6,8,30,.25);--lift-hi:0 1px 0 rgba(255,255,255,.3) inset,0 14px 24px -8px rgba(6,8,30,.55),0 3px 6px rgba(6,8,30,.3);} .ds-strip{display:flex;gap:8px;padding:12px;background:var(--snow)}.ds-tab{position:relative;width:46px;height:58px;border:0;cursor:pointer;display:grid;place-items:center;font-family:'Bricolage Grotesque Variable','Arial Narrow',sans-serif;font-weight:800;font-size:24px;font-stretch:75%;font-variant-numeric:tabular-nums;background:var(--indigo2);color:#aeb6e6;border-radius:3px 3px 2px 2px;box-shadow:var(--lift);transition:transform 260ms var(--ease-out)}.ds-tab::before{content:'';position:absolute;top:7px;left:50%;width:6px;height:6px;margin-left:-3px;border-radius:50%;background:rgba(255,255,255,.22)}.ds-open{background:var(--gold);color:var(--ink)}.ds-today{background:var(--vermilion);color:var(--snow);box-shadow:var(--lift),inset 0 0 0 2px var(--gold)}.ds-avail{background:var(--snow);color:var(--vermilion);box-shadow:var(--lift),inset 0 0 0 2px var(--vermilion)}.ds-tab:hover{transform:translateY(-4px)}.ds-tab:active{transform:translateY(-2px) scale(.96)}.ds-tab:focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+    },
+    {
+      "name": "Header Pennant",
+      "kind": "custom",
+      "refersTo": "header-pennant",
+      "description": "Banderín colgante de cabecera con icono de trazo.",
+      "html": "<button class=\"ds-pennant\" aria-label=\"Sonido\"><svg viewBox=\"0 0 24 24\"><path d=\"M4 9v6h4l5 4V5L8 9H4z\"/><path d=\"M16 9a4 4 0 0 1 0 6\"/></svg></button>",
+      "css": ":host{--night:#161b45;--indigo2:#232a66;--snow:#f3f4f8;--ink:#11142e;--vermilion:#e5392b;--gold:#f0b22e;--gold-deep:#9a6a0c;--ease-out:cubic-bezier(.23,1,.32,1);--press:140ms;--lift:0 1px 0 rgba(255,255,255,.25) inset,0 6px 14px -4px rgba(6,8,30,.45),0 2px 3px rgba(6,8,30,.25);--lift-hi:0 1px 0 rgba(255,255,255,.3) inset,0 14px 24px -8px rgba(6,8,30,.55),0 3px 6px rgba(6,8,30,.3);} .ds-pennant{width:44px;height:52px;padding:6px 0 0;display:grid;place-items:center;border:0;cursor:pointer;background:var(--snow);color:var(--ink);box-shadow:var(--lift);clip-path:polygon(0 0,100% 0,100% 80%,50% 100%,0 80%);transform-origin:50% 0;transition:transform var(--press) var(--ease-out),background 200ms ease}.ds-pennant svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}.ds-pennant:hover{background:#fff}.ds-pennant:active{transform:scaleY(.94)}.ds-pennant:focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+    },
+    {
+      "name": "Door Pull-Tab",
+      "kind": "custom",
+      "refersTo": "door-pull-tab",
+      "description": "Pestaña oro con ojal que se arrastra para entrar en la sorpresa.",
+      "html": "<button class=\"ds-door-tab\"><i></i>Tira</button>",
+      "css": ":host{--night:#161b45;--indigo2:#232a66;--snow:#f3f4f8;--ink:#11142e;--vermilion:#e5392b;--gold:#f0b22e;--gold-deep:#9a6a0c;--ease-out:cubic-bezier(.23,1,.32,1);--press:140ms;--lift:0 1px 0 rgba(255,255,255,.25) inset,0 6px 14px -4px rgba(6,8,30,.45),0 2px 3px rgba(6,8,30,.25);--lift-hi:0 1px 0 rgba(255,255,255,.3) inset,0 14px 24px -8px rgba(6,8,30,.55),0 3px 6px rgba(6,8,30,.3);} .ds-door-tab{position:relative;display:flex;align-items:center;height:40px;padding:0 12px 0 20px;border:0;cursor:grab;color:var(--ink);background:var(--gold);box-shadow:var(--lift-hi);clip-path:polygon(10px 0,100% 0,100% 100%,10px 100%,0 50%);font-family:'Bricolage Grotesque Variable','Arial Narrow',sans-serif;font-weight:800;font-size:14px;font-stretch:80%;letter-spacing:.14em;text-transform:uppercase;transition:translate 260ms var(--ease-out)}.ds-door-tab i{position:absolute;left:9px;top:50%;width:7px;height:7px;margin-top:-3.5px;border-radius:50%;background:var(--ink)}.ds-door-tab:hover{translate:6px 0}.ds-door-tab:focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+    },
+    {
+      "name": "Day Sheet",
+      "kind": "card",
+      "refersTo": "day-sheet",
+      "description": "Hoja de papel nieve de la sorpresa con número grande.",
+      "html": "<div class=\"ds-sheet\"><div class=\"ds-head\"><span class=\"ds-num\">7</span><h3>Una carta</h3></div><p>Ábrela despacio.</p></div>",
+      "css": ":host{--night:#161b45;--indigo2:#232a66;--snow:#f3f4f8;--ink:#11142e;--vermilion:#e5392b;--gold:#f0b22e;--gold-deep:#9a6a0c;--ease-out:cubic-bezier(.23,1,.32,1);--press:140ms;--lift:0 1px 0 rgba(255,255,255,.25) inset,0 6px 14px -4px rgba(6,8,30,.45),0 2px 3px rgba(6,8,30,.25);--lift-hi:0 1px 0 rgba(255,255,255,.3) inset,0 14px 24px -8px rgba(6,8,30,.55),0 3px 6px rgba(6,8,30,.3);} .ds-sheet{width:min(420px,100%);color:var(--ink);background:var(--snow);border-radius:3px;box-shadow:var(--lift-hi)}.ds-head{display:flex;align-items:flex-end;gap:14px;padding:22px 22px 12px;border-bottom:2px solid var(--ink)}.ds-num{font-family:'Bricolage Grotesque Variable','Arial Narrow',sans-serif;font-weight:800;font-size:80px;line-height:.8;font-stretch:75%;letter-spacing:-.04em;color:var(--vermilion)}.ds-head h3{margin:0;font-family:'Bricolage Grotesque Variable','Arial Narrow',sans-serif;font-weight:800;font-size:32px;line-height:.92;font-stretch:75%;text-transform:uppercase}.ds-sheet p{margin:0;padding:12px 22px 22px;font-family:'Bricolage Grotesque Variable','Arial Narrow',sans-serif;font-size:17px;line-height:1.55}"
+    },
+    {
+      "name": "Underline Field",
+      "kind": "input",
+      "description": "Campo sin caja con línea inferior de tinta.",
+      "html": "<input class=\"ds-field\" placeholder=\"Tu respuesta\">",
+      "css": ":host{--night:#161b45;--indigo2:#232a66;--snow:#f3f4f8;--ink:#11142e;--vermilion:#e5392b;--gold:#f0b22e;--gold-deep:#9a6a0c;--ease-out:cubic-bezier(.23,1,.32,1);--press:140ms;--lift:0 1px 0 rgba(255,255,255,.25) inset,0 6px 14px -4px rgba(6,8,30,.45),0 2px 3px rgba(6,8,30,.25);--lift-hi:0 1px 0 rgba(255,255,255,.3) inset,0 14px 24px -8px rgba(6,8,30,.55),0 3px 6px rgba(6,8,30,.3);} .ds-field{min-height:48px;padding:0 2px;border:0;border-bottom:2px solid var(--ink);background:transparent;font-family:'Bricolage Grotesque Variable','Arial Narrow',sans-serif;font-weight:600;font-size:18px;color:var(--ink);outline:none;caret-color:var(--vermilion);border-radius:0}.ds-field:focus{border-bottom-color:var(--vermilion)}"
+    },
+    {
+      "name": "Rubber Stamp",
+      "kind": "chip",
+      "description": "Sello de goma oro que cae con ease-back.",
+      "html": "<span class=\"ds-stamp\">Canjeado</span>",
+      "css": ":host{--night:#161b45;--indigo2:#232a66;--snow:#f3f4f8;--ink:#11142e;--vermilion:#e5392b;--gold:#f0b22e;--gold-deep:#9a6a0c;--ease-out:cubic-bezier(.23,1,.32,1);--press:140ms;--lift:0 1px 0 rgba(255,255,255,.25) inset,0 6px 14px -4px rgba(6,8,30,.45),0 2px 3px rgba(6,8,30,.25);--lift-hi:0 1px 0 rgba(255,255,255,.3) inset,0 14px 24px -8px rgba(6,8,30,.55),0 3px 6px rgba(6,8,30,.3);} .ds-stamp{display:inline-block;padding:4px 10px;border:3px solid var(--gold);color:var(--gold-deep);font-family:'Bricolage Grotesque Variable','Arial Narrow',sans-serif;font-weight:800;font-size:15px;font-stretch:80%;letter-spacing:.15em;text-transform:uppercase;transform:rotate(10deg);transition:transform 380ms cubic-bezier(.34,1.56,.64,1)}.ds-stamp:hover{transform:rotate(10deg) scale(1.08)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "El teatro de papel a medianoche",
+    "overview": "Todo es papel recortado sobre un escenario: el pueblo nevado son capas de cartulina extruida en 3D real (Three.js), el telón es terciopelo bermellón pegado a la cámara y la interfaz son piezas de papel que se cuelgan, se tiran y se arrancan. La profundidad nunca es un efecto de pantalla; sale del solape de capas, del grosor del papel y de sombras proyectadas por una luna. La única luz que brilla es la de las velas detrás de las ventanas recortadas.\n\nLa densidad es baja y teatral: un escenario a pantalla completa, una tira de papel abajo y una hoja que se abre encima. Los gestos siguen el dedo 1:1 (cordón del telón, pestaña de la puerta, hoja inferior, polaroids, talón de la entrada) y el movimiento tiene peso de objeto físico. Rechaza la cuadrícula de 24 casillas, el mapa ilustrado con scroll y el cristal esmerilado.",
+    "keyCharacteristics": [
+      "Escena 3D de papel recortado: extrusiones finas, rake de escenario, perspectiva forzada, niebla índigo.",
+      "Papel índigo de medianoche como suelo; blanco nieve como papel de lectura; bermellón, abeto y oro como tintas planas.",
+      "Grano de papel (ruido SVG) sobre toda superficie de papel de la interfaz.",
+      "Bricolage Grotesque estrecha y pesada en mayúsculas para todo lo que se lee como cartel; Instrument Serif cursiva solo para el nombre.",
+      "Controles con silueta de papel: esquinas troqueladas, banderines colgantes, borde festoneado, pestañas con ojal."
+    ],
+    "rules": [
+      {
+        "name": "The Candle-Only Glow Rule",
+        "body": "El bloom tiene umbral 1.0 y solo la luz de vela (multiplicada, sin tone mapping) lo cruza. Ninguna superficie de papel brilla; si algo resplandece es porque hay una vela detrás.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Ink Per Job Rule",
+        "body": "Bermellón actúa, oro marca lo ganado o lo que se tira, abeto confirma. No se intercambian.",
+        "section": "colors"
+      },
+      {
+        "name": "The Name Is Script Rule",
+        "body": "Instrument Serif cursiva se usa solo para el nombre de Andrius (y su inicial en el lacre). Nada más se escribe en cursiva serif.",
+        "section": "typography"
+      },
+      {
+        "name": "The Prop Face Rule",
+        "body": "Special Elite y La Belle Aurore solo aparecen dentro del objeto que las justifica (carta mecanografiada, firma, pie de polaroid, talón numerado). Nunca en interfaz.",
+        "section": "typography"
+      },
+      {
+        "name": "The Paper Has Thickness Rule",
+        "body": "Toda sombra es azul noche (rgb 6,8,30), nunca negra neutra, y siempre acompaña a un objeto de papel. Sin sombras decorativas sin objeto.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do cubrir toda superficie de papel de la interfaz con el grano (`var(--grain)`) sobre su color plano.",
+      "Do usar ease-out (cubic-bezier(.23,1,.32,1)) para entradas y presión, ease-drawer (cubic-bezier(.32,.72,0,1)) para hojas y la barra inferior, ease-in-out (cubic-bezier(.77,0,.175,1)) para movimientos de objeto de ida y vuelta.",
+      "Do reservar ease-back (cubic-bezier(.34,1.56,.64,1)) para sellos que caen y piezas que se sueltan tras arrastrarlas.",
+      "Do hacer que todo gesto siga el dedo 1:1 y sea interrumpible.",
+      "Do respetar prefers-reduced-motion: animaciones a 1ms y transiciones de hojas y paneles reducidas a opacidad en 200ms.",
+      "Do dar a la luz de vela valores por encima de 1.0 sin tone mapping cuando deba brillar; todo lo demás queda bajo el umbral."
+    ],
+    "donts": [
+      "Don't volver a la cuadrícula de 24 casillas ni al mapa ilustrado con scroll.",
+      "Don't usar cristal esmerilado ni backdrop-filter; la profundidad es solape de papel.",
+      "Don't usar Instrument Serif cursiva para nada que no sea el nombre de Andrius.",
+      "Don't usar sombras negras neutras ni sombras sin un papel que las proyecte.",
+      "Don't redondear rectángulos por encima de 6px; si una forma necesita carácter, se recorta.",
+      "Don't dejar que una superficie de papel cruce el umbral de bloom."
+    ]
+  }
+}

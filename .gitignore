@@ -1,0 +1,39 @@
+# Dependencias y compilación
+node_modules/
+dist/
+*.local
+
+# Variables de entorno y certificados (nunca al repo)
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# Registros
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Herramientas de IA y configuración local (no son parte de la web)
+.claude/
+.agents/
+.codex/
+skills-lock.json
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/questions/
+.impeccable/*.local.json
+.impeccable/hook.cache.json
+
+# Netlify local
+.netlify/

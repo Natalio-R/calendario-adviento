@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+  <meta name="theme-color" content="#161b45">
+  <meta name="color-scheme" content="dark">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Adviento">
+  <title>El pueblo de Andrius</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./assets/icono.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./assets/icono.svg">
+</head>
+<body>
+  <canvas id="stage" aria-label="Teatro de papel con el pueblo nevado"></canvas>
+
+  <section id="curtainUI">
+    <h1 class="sr-only">El pueblo de <span id="tName">Andrius</span></h1>
+    <p class="t-sub">24 puertas · diciembre 2026</p>
+    <form id="playbill" hidden autocomplete="off">
+      <h2>Solo la auténtica puede pasar</h2>
+      <p class="pb-q" id="gateQ"></p>
+      <div class="datepick" role="group" aria-labelledby="gateQ">
+        <div class="tear" data-k="d"><span class="tear-h">Día</span><div class="tear-body" tabindex="0" role="spinbutton" aria-label="Día"><b class="tear-v"></b></div></div>
+        <div class="tear" data-k="m"><span class="tear-h">Mes</span><div class="tear-body" tabindex="0" role="spinbutton" aria-label="Mes"><b class="tear-v"></b></div></div>
+        <div class="tear" data-k="y"><span class="tear-h">Año</span><div class="tear-body" tabindex="0" role="spinbutton" aria-label="Año"><b class="tear-v"></b></div></div>
+      </div>
+      <p class="pb-hint">Desliza cada hoja arriba o abajo</p>
+      <button class="paper-btn primary pb-go" type="submit">Es este día</button>
+      <p class="g-msg" id="gateMsg" aria-live="polite"></p>
+    </form>
+    <div id="cord" hidden role="button" tabindex="0" aria-label="Tirar del cordón para abrir el telón">
+      <span class="rope"></span>
+      <span class="knot"><svg viewBox="0 0 40 72" aria-hidden="true"><path d="M20 0v14"/><circle cx="20" cy="20" r="7"/><path d="M13 26c-4 10-5 26-7 40h28c-2-14-3-30-7-40z"/><path d="M15 40l-2 24M20 40v26M25 40l2 24"/></svg></span>
+      <span class="cord-label">Tira del cordón</span>
+    </div>
+  </section>
+
+  <header id="top">
+    <p class="mark"><span>El pueblo de</span> <em id="markName">Andrius</em></p>
+    <div class="top-right">
+      <p class="prog" aria-label="Puertas encendidas"><b id="progN">0</b><span>/24</span><i><i id="progBar"></i></i></p>
+      <button class="icon-btn" id="btnVales" data-icon="ticket" aria-label="Mis vales" hidden></button>
+      <button class="icon-btn" id="btnSound" data-icon="sound" aria-label="Sonido"></button>
+    </div>
+  </header>
+
+  <nav id="dock" aria-label="Días">
+    <div class="focusbar">
+      <button class="icon-btn ghost" id="fbBack" data-icon="back" aria-label="Ver todo el pueblo" hidden></button>
+      <p class="fb-info" id="fbInfo" aria-live="polite"></p>
+      <button class="paper-btn primary" id="fbOpen" data-icon="door"><span>Abrir</span></button>
+    </div>
+    <ol id="strip"></ol>
+  </nav>
+
+  <button id="doorTab" hidden aria-label="Tira para abrir la puerta"><i class="eyelet"></i><span>Tira</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 7l5 5-5 5"/></svg></button>
+  <div id="veil"></div>
+  <canvas id="fx" aria-hidden="true"></canvas>
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <section id="sheet" hidden>
+    <div class="sheet-bg"></div>
+    <article id="card" role="dialog" aria-modal="true" aria-labelledby="cardTitle">
+      <div id="cardGrab" class="grab">
+        <span class="handle" aria-hidden="true"></span>
+        <span class="c-num" id="cardNum" aria-hidden="true"></span>
+        <div class="c-head">
+          <h2 id="cardTitle"></h2>
+          <p class="c-day" id="cardDay"></p>
+        </div>
+      </div>
+      <div id="cardScroll">
+        <div id="cardBody"></div>
+        <div class="card-foot"><button class="paper-btn ghost" id="cardClose">Volver al pueblo</button></div>
+      </div>
+    </article>
+  </section>
+
+  <section id="wallet" hidden>
+    <div class="sheet-bg"></div>
+    <div class="wallet-card">
+      <div class="grab">
+        <span class="handle" aria-hidden="true"></span>
+        <h2>Mis vales</h2>
+        <p class="hint">Enséñamelos cuando quieras cobrarlos</p>
+      </div>
+      <ul id="walletList"></ul>
+      <div class="card-foot"><button class="paper-btn ghost" id="walletClose">Cerrar</button></div>
+    </div>
+  </section>
+
+  <div id="dev" hidden>
+    <b>Modo pruebas</b>
+    <span id="devInfo"></span>
+    <button id="devAll">Marcar todo abierto</button>
+    <button id="devReset">Reiniciar progreso</button>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

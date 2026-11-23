@@ -1,0 +1,10 @@
+{
+  "name": "El pueblo de Andrius",
+  "short_name": "Adviento",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b1026",
+  "theme_color": "#0b1026",
+  "icons": [{ "src": "assets/icono.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
